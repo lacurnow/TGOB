@@ -1,0 +1,99 @@
+/* tgob_style_v1.css */
+ html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+}
+
+
+.text-style {
+color: black;
+font-family: monospace;	
+text-align: center;
+margin: 40px;
+}
+
+h1 {
+/*font-family: Peddana, monospace; */
+font-family: 'Press Start 2P', cursive, monospace;
+font-size: 4vw;
+text-align: center;
+margin: 100px;
+}
+
+.egg-logo {
+width: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#navbar {
+position: fixed;
+top: 0px;
+width: 100%;
+background-color: #f7941d;
+}
+
+#navbar li {
+	display: inline;
+	margin-right: 50px;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+
+#navbar a {
+	color: black;
+} 
+
+a:hover {
+	animation-name: link-color;
+	animation-duration: 300ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes link-color {
+	100% {
+		color: #FFFFFF;
+	}
+}
+
+#insta_button {
+	color: #FFFFFF;
+	background-color: #f7941d;
+	border: 0px;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 40px, 40px;
+	font-family: monospace;
+	font-size: 20px;
+	text-align:center;
+}
+
+#insta_button_region {
+	text-align:center;
+}
+
+#insta_button:hover {
+	animation-name: button-color;
+	animation-duration: 100ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes button-color {
+	100% {
+		background-color: #7b4604;
+	}
+}
+
+footer {
+	text-align: center;
+	font-family: Montserrat, monospace;
+	font-weight: bold;
+}
